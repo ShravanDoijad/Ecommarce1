@@ -17,7 +17,7 @@ import orderRouter from "./routes/orderRoute.js"
 
 const port  = process.env.PORT || 4000
 app.use(cors({
-    origin: ["http://localhost:5174", "http://localhost:5173"], 
+    origin: ["https://ecommarce1-admin.vercel.app", "https://ecommarce1-frontend-shravans-projects-00476bc1.vercel.app"], 
     credentials: true
 }))
 app.use(express.json())
